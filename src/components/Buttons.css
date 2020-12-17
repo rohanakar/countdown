@@ -1,0 +1,33 @@
+div.play {
+    transition: border-width 0.1s ease-in;
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 25px 0px 25px 50px;
+    box-sizing: border-box;
+    border-color: transparent transparent transparent white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+div.button-outer {
+    transition: 0.1s all;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+div.button-outer:active {
+    transform: scale(0.98);
+}
+
+div.pause {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-style: double;
+    border-width: 0px 0px 0px 50px;
+    border-color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
